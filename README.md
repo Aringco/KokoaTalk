@@ -1,2 +1,3 @@
 # KokoaTalk
- NomadCoder
+ 
+ Kakao Desktop App Clone
