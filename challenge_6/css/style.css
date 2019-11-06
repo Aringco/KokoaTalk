@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700|Oswald:400,700&display=swap');
+@import "reset.css";
+@import "profile.css";
+@import "container.css";
+@import "product.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    font-family: "Overpass", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
