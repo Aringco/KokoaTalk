@@ -1,0 +1,13 @@
+.mainframe__btns{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 35px;
+}
+
+.mainframe__btns .mainframe__btns-column{
+    font-size: 20px;
+    text-shadow: 0 0 5px white;
+}

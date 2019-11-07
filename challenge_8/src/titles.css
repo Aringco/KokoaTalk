@@ -1,0 +1,48 @@
+.titles .titles__title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titles__title .titles__big{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.titles__title i{
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px #E3E6EA;
+    color: red;
+}
+
+.titles__location i{
+    font-size: 14px;
+    color: #2D5BFF;
+    margin-right: 8px;
+}
+
+.titles__location .titles__location-name{
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.titles__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.titles__bottom-column .titles__stars{
+    font-size: 17px;
+    color: #FFBC00;
+    margin-right: 8px;
+}
+
+.titles__bottom-column .titles__distance{
+    font-size: 17px;
+    opacity: 0.5;
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren|Ubuntu:400,700&display=swap');
+@import "reset.css";
+@import "frame.css";
+@import "status.css";
+@import "main_btns.css";
+@import "icons.css";
+@import "tags.css";
+@import "titles.css";
+@import "overview.css";
+@import "nav.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E7E7ED;
+    font-family: 'Ubuntu', sans-serif;
+}
