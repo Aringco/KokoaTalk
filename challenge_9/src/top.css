@@ -1,0 +1,8 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+
