@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import "reset.css";
+@import "frame.css";
+@import "bars.css";
+@import "main.css";
+@import "nav.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Acme', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

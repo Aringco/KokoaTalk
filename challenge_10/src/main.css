@@ -1,0 +1,73 @@
+.main{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.main .main__profile{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.025);
+}
+
+.main__profile img{
+    width: 100%;
+    height: 100%;
+}
+
+.main .main__personal-info{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__personal-info span{
+    display: block;
+}
+
+.main__personal-info .name{
+    font-size: 22px;
+    font-weight: 600;
+    color: #2595F5;
+}
+
+.main__personal-info .zip-code{
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.main .main__btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+
+.main__btns .btns{
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+}
+
+.btns:first-child{
+    background-color: white;
+    color: #ADB5BD;
+}
+
+.btns:last-child{
+    background-color: #2595F5;
+    color: white;
+}
